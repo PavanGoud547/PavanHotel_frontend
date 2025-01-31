@@ -2,7 +2,8 @@ import axios from "axios"
 
 export default class ApiService {
 
-    static BASE_URL = "http://localhost:3537"
+    static BASE_URL = "https://pavan-hotel-backend-production.up.railway.app"
+    //http://localhost:3537
 
     static getHeader() {
         const token = localStorage.getItem("token");
